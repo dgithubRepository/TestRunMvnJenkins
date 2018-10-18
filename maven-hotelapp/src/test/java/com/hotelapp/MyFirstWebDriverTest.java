@@ -18,7 +18,7 @@ public class MyFirstWebDriverTest {
 
   @Before
   public void setUp() throws Exception {
-	System.setProperty("webdriver.chrome.driver", "/Users/DaveImac/Desktop/ChromeDriver/chromedriver");   
+	System.setProperty("webdriver.chrome.driver", "Driver/chromedriver");   
 	driver = new ChromeDriver();
     baseUrl = "http://www.adactin.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
